@@ -1,11 +1,4 @@
 @font-face {
-  font-family: "DM Sans Regular";
-  src: url("./assets/DMSans-Regular.ttf") format("truetype");
-  font-display: swap;
-  font-style: normal;
-}
-
-@font-face {
   font-family: "DM Sans SemiBold";
   src: url("./assets/DMSans-SemiBold.ttf") format("truetype");
   font-display: swap;
@@ -17,10 +10,22 @@ body {
   flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
+  height: 200vh;
+  margin: 0;
+}
+
+.linkedin,
+.portfolio {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
   row-gap: 2rem;
   height: 100vh;
-  font-family: "DM Sans Regular";
   padding: 2rem;
+}
+
+.linkedin {
   background: #0a66c2;
   background: linear-gradient(
     150deg,
@@ -29,14 +34,18 @@ body {
   );
 }
 
+.portfolio {
+  background-color: #ffad00;
+}
+
 h1 {
   font-size: 1.5rem;
   font-family: "DM Sans SemiBold";
   color: #fff;
 }
 
-.logo {
-  width: 20%;
+.black {
+  color: #000;
 }
 
 .qr {
