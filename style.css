@@ -16,7 +16,8 @@ body {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  row-gap: 2rem;
   height: 100vh;
   font-family: "DM Sans Regular";
   padding: 1rem;
@@ -29,7 +30,7 @@ body {
 }
 
 h1 {
-  font-size: 1.15rem;
+  font-size: 1.5rem;
   font-family: "DM Sans SemiBold";
   color: #fff;
 }
