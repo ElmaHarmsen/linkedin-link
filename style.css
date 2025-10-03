@@ -19,7 +19,7 @@ body {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   row-gap: 2rem;
   height: 100vh;
   padding: 2rem;
@@ -38,16 +38,43 @@ body {
   background-color: #ffad00;
 }
 
-h1 {
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  row-gap: 2rem;
+  text-align: center;
+}
+
+.green-bg {
+  background-color: #2d9076;
+  aspect-ratio: 1 / 1;
+  border-radius: 100%;
+  width: 65%;
+  row-gap: 0.25rem;
+}
+
+h1,
+h2 {
   font-size: 1.5rem;
   font-family: "DM Sans SemiBold";
+  margin: 0;
+}
+
+h1 {
   color: #fff;
 }
 
-.black {
+h2 {
   color: #000;
 }
 
 .qr {
   width: 100%;
+}
+
+.me {
+  width: 65%;
+  border-radius: 100%;
 }
