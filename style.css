@@ -48,11 +48,10 @@ body {
 }
 
 .green-bg {
-  background-color: #2d9076;
   aspect-ratio: 1 / 1;
   border-radius: 100%;
   width: 65%;
-  row-gap: 0.25rem;
+  row-gap: 0.75rem;
 }
 
 h1,
